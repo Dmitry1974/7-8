@@ -1,0 +1,18 @@
+header {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url("../img/headbackground.jpg");
+    /*width: 100%;
+    height: 869px;
+    background-size: cover;*/
+}
+.announcement__advtBackground {
+    background: #322539;
+    /*background-size: cover;*/
+    /* width: 100%;
+     height: 342px;*/
+    margin-top: -24px;
+}
+.partner a>img {
+    border: none;
+}

@@ -6,6 +6,13 @@
     <title>Title</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font.css" rel="stylesheet">
+    <!--[if IE]>
+    <link style type="text/css" href="css/IE.css" rel="stylesheet">
+    <![endif]-->
+    <!--[if lte IE 8]>
+    <script src="/html5shiv-printshiv.js"></script>
+    <script  src="/respond.js"></script>
+    <![endif]-->
 </head>
 <body>
     <header>
@@ -199,5 +206,15 @@
             </div>
         </div>
     </div>
+    <!--[if lt IE 9]>
+    <script>
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+    </script>
+    <![endif]-->
 </body>
 </html>

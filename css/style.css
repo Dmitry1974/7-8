@@ -231,6 +231,8 @@ header {
     display: inline-block;
     width: 33.33333336%;
     box-sizing: border-box;
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
     text-align: left;
     margin-top: 75px;
     }
@@ -479,7 +481,7 @@ header {
     margin-top: 28px;
 }
 .content__blog h3 {
-    font-family: open_sansbold, serif;
+    font-family: open_sansbold;
     font-weight: 900;
     font-size: 16px;
     color: #454545;
@@ -564,6 +566,8 @@ header {
     padding: 92px 0 0;
     display: inline-block;
     box-sizing: border-box;
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
     width: 33.33333336%;
     margin-bottom: 45px;
     text-align: left;

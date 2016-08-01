@@ -1,9 +1,11 @@
 
 @font-face {
     font-family: 'league_gothicregular';
+    src: url('../font/leaguegothicregular-webfont-webfont.eot');
     src: url('../font/leaguegothicregular-webfont.woff2') format('woff2'),
          url('../font/leaguegothicregular-webfont.woff') format('woff'),
          url('../font/leaguegothicregular-webfont.ttf') format('truetype'),
+    url('../font/leaguegothicregular-webfont-webfont.eot?#iefix') format('eot'),
          url('../font/leaguegothicregular-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -15,9 +17,11 @@
 
 @font-face {
     font-family: 'webfontregular';
+    src: url('../font/leaguegothicregular-webfont-webfont.eot');
     src: url('../font/leaguegothicregular-webfont.woff2') format('woff2'),
          url('../font/leaguegothicregular-webfont.woff') format('woff'),
          url('../font/leaguegothicregular-webfont.ttf') format('truetype'),
+         url('../font/leaguegothicregular-webfont-webfont.eot?#iefix') format('eot'),
          url('../font/leaguegothicregular-webfont.svg#webfontregular') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -25,7 +29,9 @@
 }
 @font-face {
     font-family: 'open_sanslight';
-    src: url('../font/open-sans-light_allfont.ru-webfont.woff2') format('woff2'),
+    src: url('../font/open-sans-light_allfont.ru-webfont-webfont.eot');
+    src: url('../font/open-sans-light_allfont.ru-webfont-webfont.eot?#iefix') format('eot'),
+    url('../font/open-sans-light_allfont.ru-webfont.woff2') format('woff2'),
     url('../font/open-sans-light_allfont.ru-webfont.woff') format('woff'),
     url('../font/open-sans-light_allfont.ru-webfont.ttf') format('truetype'),
     url('../font/open-sans-light_allfont.ru-webfont.svg#open_sanslight') format('svg');
@@ -34,8 +40,10 @@
 }
 @font-face {
     font-family: 'open_sansbold';
-    src: url('../font/2204-webfont.woff2') format('woff2'),
+    src:  url('../font/2204-webfont-webfont.eot'),
+    url('../font/2204-webfont.woff2') format('woff2'),
     url('../font/2204-webfont.woff') format('woff'),
+    url('../font/2204-webfont-webfont.eot?#iefix') format('eot'),
     url('../font/2204-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
